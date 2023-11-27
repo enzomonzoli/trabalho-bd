@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19/11/2023 às 17:37
+-- Tempo de geração: 25/11/2023 às 17:58
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.0.28
 
@@ -34,14 +34,6 @@ CREATE TABLE `users` (
   `password` varchar(120) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Despejando dados para a tabela `users`
---
-
-INSERT INTO `users` (`id`, `full_name`, `email`, `password`) VALUES
-(3, 'enzo', 'enzo.monzoli@gmail.com', '$2y$10$Fe3xDYflCf.UZoBv.pec9eggM23cod0cXNMc8rh2jbCxiznk2D4D2'),
-(4, 'enzo', 'toptop@gmail.com', '$2y$10$TlM88iWeSfusZKXTqhGYxe01j3P4gPOkAyIZOFfNEvHhDRM75m49.');
-
 -- --------------------------------------------------------
 
 --
@@ -56,15 +48,6 @@ CREATE TABLE `usuarios` (
   `raca` varchar(120) NOT NULL,
   `idade` varchar(120) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Despejando dados para a tabela `usuarios`
---
-
-INSERT INTO `usuarios` (`id`, `nome`, `nome_pet`, `especie`, `raca`, `idade`) VALUES
-(1, 'enzo', 'foddd', 'awdawd', 'awdawd', '1344'),
-(2, 'enzo', 'lucio', 'terra', 'caramelo', '2'),
-(3, 'enzo', 'wdawdad', 'awdawd', 'rdddf', '1111');
 
 --
 -- Índices para tabelas despejadas
